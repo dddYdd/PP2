@@ -45,7 +45,7 @@ while i < len(thislist):
 #4
 thislist = ["apple", "banana", "cherry"]
 [print(x) for x in thislist]
-#List comprehension
+
 fruits = ["apple", "banana", "cherry", "kiwi", "mango"]
 newlist = []
 
