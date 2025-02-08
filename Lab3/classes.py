@@ -1,7 +1,7 @@
 #1
 class StringManipulator:
     def getString(self):
-        self.input_string = input("Enter a string: ")
+        self.input_string = input()
     
     def printString(self):
         print(self.input_string.upper())
@@ -26,7 +26,7 @@ class Square(Shape):
         return self.length ** 2
 
 square = Square(4)
-print("Area of the square:", square.area())  
+print(square.area())  
 
 #3
 class Rectangle(Shape):
@@ -38,7 +38,7 @@ class Rectangle(Shape):
         return self.length * self.width
 
 rectangle = Rectangle(5, 3)
-print("Area of the rectangle:", rectangle.area())  
+print(rectangle.area())  
 
 #4
 import math
@@ -49,7 +49,7 @@ class Point:
         self.y = y
     
     def show(self):
-        print(f"Point coordinates: ({self.x}, {self.y})")
+        print(self.x, self.y)
     
     def move(self, dx, dy):
         self.x += dx
@@ -68,7 +68,7 @@ point1.move(3, 4)
 point1.show()  
 
 distance = point1.dist(point2)
-print("Distance between the points:", distance)  
+print(distance)  
 
 #5
 class Account:
@@ -78,16 +78,16 @@ class Account:
     
     def deposit(self, amount):
         self.balance += amount
-        print(f"Deposited: {amount}. New balance: {self.balance}")
+        print(amount, self.balance)
     
     def withdraw(self, amount):
         if amount > self.balance:
             print("Insufficient funds!")
         else:
             self.balance -= amount
-            print(f"Withdrew: {amount}. New balance: {self.balance}")
+            print(amount, self.balance)
 
-account = Account("John", 1000)
+account = Account("Arman", 1000)
 account.deposit(500)
 account.withdraw(200)
 account.withdraw(2000)  
@@ -104,8 +104,6 @@ def is_prime(num):
 numbers = [10, 15, 3, 7, 13, 21, 2, 8]
 prime_numbers = list(filter(lambda x: is_prime(x), numbers))
 
-print("Prime numbers in the list:", prime_numbers)
-
-
+print(prime_numbers)
 
 
