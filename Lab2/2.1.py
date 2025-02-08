@@ -28,11 +28,11 @@ car = {
 
 x = car.values()
 
-print(x) #before the change
+print(x) 
 
 car["year"] = 2020
 
-print(x) #after the change
+print(x) 
 #4
 car = {
 "brand": "Ford",
@@ -42,12 +42,12 @@ car = {
 
 x = car.items()
 
-print(x) #before the change
+print(x) 
 
 car["year"] = 2020
 
-print(x) #after the change
-#5 change
+print(x) 
+#5 
 thisdict = {
   "brand": "Ford",
   "model": "Mustang",
