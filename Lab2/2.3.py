@@ -37,7 +37,7 @@ thisset = {"apple", "banana", "cherry"}
 thisset.discard("banana")
 
 print(thisset)
-#8 Remove a random item by using the pop() method:
+#8
 thisset = {"apple", "banana", "cherry"}
 
 x = thisset.pop()
@@ -45,7 +45,7 @@ x = thisset.pop()
 print(x)
 
 print(thisset)
-#9 The clear() method empties the set:
+#9 
 thisset = {"apple", "banana", "cherry"}
 
 thisset.clear()
