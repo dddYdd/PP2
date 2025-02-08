@@ -18,7 +18,6 @@ while i < 6:
     continue
   print(i)
 
-# Note that number 3 is missing in the result
 #4
 i = 1
 while i < 6:
