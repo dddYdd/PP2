@@ -38,8 +38,7 @@ thistuple = tuple(y)
 #8
 thistuple = ("apple", "banana", "cherry")
 del thistuple
-print(thistuple) #this will raise an error because the tuple no longer exists
-# Unpacking tuples
+print(thistuple)
 fruits = ("apple", "banana", "cherry")
 
 (green, yellow, red) = fruits
@@ -55,7 +54,7 @@ fruits = ("apple", "banana", "cherry", "strawberry", "raspberry")
 print(green)
 print(yellow)
 print(red)
-# Loop tuples
+# 
 thistuple = ("apple", "banana", "cherry")
 for x in thistuple:
   print(x)
@@ -69,7 +68,7 @@ i = 0
 while i < len(thistuple):
   print(thistuple[i])
   i = i + 1
-# Join tuples
+# 
 tuple1 = ("a", "b" , "c")
 tuple2 = (1, 2, 3)
 
