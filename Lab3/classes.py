@@ -12,8 +12,6 @@ string_manipulator.getString()
 string_manipulator.printString()
 
 
-p1 = Person("John", 36)
-p1.myfunc()
 
 #2
 class Shape:
