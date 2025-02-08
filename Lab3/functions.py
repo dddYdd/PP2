@@ -28,14 +28,14 @@ def filter_prime(numbers):
 #5
 import itertools
 def string_permutations():
-    user_input = input("Enter a string: ")
+    user_input = input()
     permutations = itertools.permutations(user_input)
     for perm in permutations:
         print("".join(perm))
 
 #6
 def reverse_words_in_sentence():
-    user_input = input("Enter a sentence: ")
+    user_input = input()
     words = user_input.split()
     reversed_sentence = " ".join(reversed(words))
     print(reversed_sentence)
@@ -99,4 +99,5 @@ def guess_the_number():
         else:
             print(f"Good job, {name}! You guessed my number in {guesses_taken} guesses!")
             break
+
 
