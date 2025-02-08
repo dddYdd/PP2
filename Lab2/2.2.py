@@ -2,7 +2,7 @@
 fruits = ["apple", "banana", "cherry"]
 for x in fruits:
   print(x)
-#2 Loop through the letters in the word "banana":
+#2 
 for x in "banana":
   print(x)
 #3 
