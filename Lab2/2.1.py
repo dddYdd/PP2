@@ -14,11 +14,11 @@ car = {
 
 x = car.keys()
 
-print(x) #before the change
+print(x) 
 
 car["color"] = "white"
 
-print(x) #after the change
+print(x) 
 #3
 car = {
 "brand": "Ford",
@@ -61,7 +61,7 @@ thisdict = {
   "year": 1964
 }
 thisdict.update({"year": 2020})
-#7 add items
+#7 
 thisdict = {
   "brand": "Ford",
   "model": "Mustang",
@@ -69,7 +69,7 @@ thisdict = {
 }
 thisdict["color"] = "red"
 print(thisdict)
-#8 The pop() method removes the item with the specified key name:
+#8 
 thisdict = {
   "brand": "Ford",
   "model": "Mustang",
@@ -77,7 +77,7 @@ thisdict = {
 }
 thisdict.pop("model")
 print(thisdict)
-#9 Make a copy of a dictionary with the copy() method:
+#9
 thisdict = {
   "brand": "Ford",
   "model": "Mustang",
@@ -93,7 +93,7 @@ thisdict = {
 }
 mydict = dict(thisdict)
 print(mydict)
-#11 nested dict
+#11 
 myfamily = {
   "child1" : {
     "name" : "Emil",
