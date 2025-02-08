@@ -100,7 +100,3 @@ def guess_the_number():
             print(f"Good job, {name}! You guessed my number in {guesses_taken} guesses!")
             break
 
-print(my_function(3))
-print(my_function(5))
-print(my_function(9))
-#8
