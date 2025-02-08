@@ -26,12 +26,19 @@ def filter_prime(numbers):
     return [num for num in numbers if is_prime(num)]
 
 #5
-import itertools
-def string_permutations():
+def get_permutations(s, current=""):
+    if len(s) == 0:
+        print(current)
+    else:
+        for i in range(len(s)):
+            remaining = s[:i] + s[i+1:]
+            get_permutations(remaining, current + s[i])
+
+def print_permutations():
     user_input = input()
-    permutations = itertools.permutations(user_input)
-    for perm in permutations:
-        print("".join(perm))
+    get_permutations(user_input)
+
+print_permutations()
 
 #6
 def reverse_words_in_sentence():
@@ -99,5 +106,4 @@ def guess_the_number():
         else:
             print(f"Good job, {name}! You guessed my number in {guesses_taken} guesses!")
             break
-
 
